@@ -13,17 +13,9 @@ function Header() {
     <Box sx={{ flexGrow: 1, }}>
       <AppBar position="static" sx={{ backgroundColor: 'purple' }}>
         <Toolbar>
-          {/*  <IconButton
-            size="large"
-            edge="start"
-            color="inherit"
-            aria-label="menu"
-            sx={{ mr: 2 }}
-          >
-            
-          </IconButton> */}
+        
           <Typography variant="h6" component="div" sx={{ flexGrow: 1, fontWeight: 'bold', display: 'flex', alignItems: 'center' }}>
-            <img src="src\assets\Gemini_Generated_Image_3hf9iw3hf9iw3hf9-removebg-preview.png" alt="" width={'60'} />
+            <img src="/Gemini_Generated_Image_3hf9iw3hf9iw3hf9-removebg-preview.png" alt="" width={'60'} />
             rBuilder
           </Typography>
 
